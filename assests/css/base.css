@@ -1,6 +1,10 @@
+* {
+    color: #2e1d1c;
+}
+
 header
 {
-    background-color:cadetblue;
+    background-color: #6991af;
 
     display: grid;
     grid-template-columns: auto 1fr;
@@ -25,7 +29,7 @@ header h2
 
 body
 {
-    background-color: burlywood; 
+    background-color: #2e1d1c; 
 }
 
 
