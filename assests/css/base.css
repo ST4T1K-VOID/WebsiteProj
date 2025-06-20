@@ -15,6 +15,9 @@ header
     font-family: "Instrument Serif", serif;
     font-weight: 1000;
     font-size: 32px;
+
+    position: sticky;
+    top: 0;
 }
 
 header img
