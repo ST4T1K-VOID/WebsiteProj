@@ -38,6 +38,11 @@ body
     background-color: #2e1d1c; 
 }
 
+a 
+{
+    text-decoration: none;
+}
+
 footer
 {
     background-color: #6991af;
