@@ -1,4 +1,4 @@
-# WebisteProj
+# WebsiteProj
 Repo for my GitHub pages site.
 
 ## Colours
