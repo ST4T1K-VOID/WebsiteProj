@@ -1,0 +1,22 @@
+.ninjaAPI
+{
+    grid-column: 1 / span 3;
+    text-align: center;
+}
+
+.ninjaAPI header
+{
+    grid-column: 1 / span 3;
+    background-color: #4c6681;
+}
+
+.ninjaAPI header h3
+{
+    grid-column: 1 / span 3;
+    text-align: center;
+}
+
+.ninjaAPI #submitButton
+{
+    padding: 10px 20px;
+}
