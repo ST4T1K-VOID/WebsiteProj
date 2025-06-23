@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assests/img/favicon.ico">
     <title>Contact</title>
 
     <!--GOOGLE FONTS-->
@@ -16,6 +17,9 @@
     <link rel="stylesheet" href="./assests/css/reset.css">
     
     <link rel="stylesheet" href="./assests/css/base.css">
+    <link rel="stylesheet" href="./assests/css/contact.css">
+
+    <script src="./assests/js/contact-validation.js" defer></script>
 </head>
 <body>
     <header>
@@ -25,7 +29,22 @@
 
     <nav></nav>
 
-    <main></main>
+    <main>
+        <article>
+            <h2>Contact</h2>
+
+           <form class="contact_form" action="submit">
+            <label for="contact_name" id="label_name">Name:</label>
+                <input type="text" id="contact_name" placeholder="your name here...">
+            <label for="contact_email"id="label_email">Email:</label>
+                <input type="text" id="contact_email" placeholder="email@provider.com">
+            <label for="contact_message" id="label_message">Message:</label>
+                <textarea id="contact_message" style="height: 50px;" placeholder="your message here..."></textarea>
+
+            <input type="submit" value="send" id="send_button">
+            </form> 
+        </article>
+    </main>
 
     <footer>
     <h3>&#169; Madeleine O'Brien 2025</h6>
