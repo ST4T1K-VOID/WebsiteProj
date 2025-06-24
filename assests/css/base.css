@@ -10,7 +10,7 @@ header
 
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-row: 1fr;
+    grid-template-rows: 1fr;
     column-gap: .5em;
 
     align-items: center;
