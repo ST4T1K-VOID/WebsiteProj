@@ -18,30 +18,30 @@ document.getElementById('send_button').addEventListener("click", (event) => {
     let errorcheck = false;
     if (!formName){
         errorcheck = true;
-        message = document.getElementById("error_name");
+        let message = document.getElementById("error_name");
         message.textContent = "Name is a required field";
         message.style.visibility = "visible";
     }
     if (!formMessage){
         errorcheck = true;
-        message = document.getElementById("error_message");
+        let message = document.getElementById("error_message");
         message.textContent = "Message is a required field";
         message.style.visibility = "visible";
     }
 
     if(!formEmail){
         errorcheck = true;
-        message = document.getElementById("error_email");
+        let message = document.getElementById("error_email");
         message.textContent = "Email is a required field";
         message.style.visibility = "visible";
     }
     else if (!regex.test(formEmail)){
         errorcheck = true;
-        message = document.getElementById("error_email");
+        let message = document.getElementById("error_email");
         message.textContent = "Invalid email! Valid email = username@provider.[TLD]";
         message.style.visibility = "visible";
     }
     if (errorcheck === false){
         document.getElementById("submit_success").style.visibility = "visible";
     }
-} )
+});

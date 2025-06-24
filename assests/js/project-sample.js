@@ -5,15 +5,15 @@
 
 document.getElementById("trivia").addEventListener('input', () => {
     let displayArea = document.getElementById('responseDisplay');
-    displayArea.innerHTML = null
+    displayArea.innerHTML = null;
     displayArea.style.visibility = "collapse";
-})
+});
 
 document.getElementById("dadjokes").addEventListener('input', () => {
     let displayArea = document.getElementById('responseDisplay');
-    displayArea.innerHTML = null
+    displayArea.innerHTML = null;
     displayArea.style.visibility = "collapse";
-})
+});
 
 
 const key = 'Sg3i4GgkBddN3tGQIPJ2Gw==S65WmQEjAsmX8tfF';
