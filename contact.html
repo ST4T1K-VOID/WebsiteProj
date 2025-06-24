@@ -33,15 +33,19 @@
         <article>
             <h2>Contact</h2>
 
-           <form class="contact_form" action="submit">
+           <form id="contact_form" action="submit">
             <label for="contact_name" id="label_name">Name:</label>
                 <input type="text" id="contact_name" placeholder="your name here...">
+                <p id="error_name"></p>
             <label for="contact_email"id="label_email">Email:</label>
-                <input type="text" id="contact_email" placeholder="email@provider.com">
+                <input type="text" id="contact_email" placeholder="username@provider.[TLD]">
+                <p id="error_email"></p>
             <label for="contact_message" id="label_message">Message:</label>
                 <textarea id="contact_message" style="height: 50px;" placeholder="your message here..."></textarea>
+                <p id="error_message"></p>
 
             <input type="submit" value="send" id="send_button">
+            <p id="submit_success" style="color:yellowgreen; text-align: center; text-decoration: none; visibility: collapse;">Message sent!</p>
             </form> 
         </article>
     </main>

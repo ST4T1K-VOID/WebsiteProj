@@ -39,11 +39,25 @@ form input, form textarea
     padding: 5px 0px;
     max-width: 90%;
     margin-left: 20px;
+
+    background-color: #e6eff3;
+    border-style: solid;
+    border-radius: 5px;
 }
 form label
 {
     font-size: 18px;
     margin: 5px 0px;
+}
+form p
+{
+    color: orangered;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    margin-left: 20px;
+    font-size: 12px;
+
+    font-family:sans-serif;
 }
 form #send_button
 {
